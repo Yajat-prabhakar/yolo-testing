@@ -1,0 +1,29 @@
+# Environment variables (contains API keys)
+.env
+
+# Ignore model files and large data
+Model/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.ckpt
+*.weights
+*.npz
+*.npy
+*.jpg
+*.jpeg
+*.png
+output.jpg
+yolo_output_*.png
+tempCodeRunnerFile.py
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Ignore VSCode settings
+.vscode/
+# Ignore OS files
+.DS_Store
+Thumbs.db
