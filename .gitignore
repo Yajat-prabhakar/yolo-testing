@@ -2,7 +2,8 @@
 .env
 
 # Ignore model files and large data
-Model/
+Model/*/
+!Model/README.md
 *.pt
 *.pth
 *.h5
